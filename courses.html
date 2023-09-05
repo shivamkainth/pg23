@@ -1,0 +1,17 @@
+<!-- courses.html -->
+
+<form method="post" action="add_courses.php">
+
+    <label for="user">User ID:</label>
+    <input type="text" id="user" name="user_id">
+  
+    <label for="courses">Courses:</label>
+    <select name="courses[]" id="courses" multiple>
+      <option value="123">Course 1</option>
+      <option value="456">Course 2</option> 
+      <option value="789">Course 3</option>
+    </select>
+  
+    <input type="submit" value="Add Courses">
+  
+  </form>
